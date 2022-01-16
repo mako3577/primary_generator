@@ -2,10 +2,12 @@ import time
 
 
 def generator(limit):
-    """ Generator is creating and printing primary numbers.
+    """ Generator is creating and printing primary numbers
+    and time of the process
 
     Parameters:
         limit (int): Function breaks when limit is reched.
+   
     """
     start = time.process_time()
     liczba = 1
